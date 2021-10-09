@@ -564,6 +564,7 @@ body {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% /3 - 30px);
+  
 }
 .gallery-content {
   padding: 20px 24px;
@@ -573,6 +574,7 @@ body {
 .gallery-link{
 display: block;
 transition: box-shadow 250ms ease-in-out;
+position: relative;
 }
 
 .gallery-link:hover,
@@ -622,4 +624,19 @@ transition: box-shadow 250ms ease-in-out;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  
+  color:var(--secondary-text-color);
+  background: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 294px;
+  width: 100%;
 }
