@@ -199,6 +199,7 @@ body {
   color: var(--primary-title-color);
   background-color: var(--accent-color);
   cursor: pointer;
+
 }
 
 .hero-btn:hover,
@@ -362,12 +363,14 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  transition: background-color 250ms ease-in-out;
 }
 
 .social-icon{
   width: 20px;
   height: 20px;
   fill: var(--primery-icon-color);
+  transition: fill 250ms ease-in-out;
 }
 
 .social-link:hover,
