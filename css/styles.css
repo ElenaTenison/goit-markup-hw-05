@@ -281,12 +281,19 @@ body {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
+  position: relative;
 }
 .work-list-text{
   font-size: 14px;
-  color:;
-  
-
+  color:var(--secondary-text-color);
+  background: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  padding: 27px;
+  position: absolute;
+  top: 224px;
+  left: 0;
+  height: 70px;
+  width: 100%;
 }
 
 /* TEAM */
