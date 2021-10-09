@@ -703,9 +703,7 @@ transition: box-shadow 250ms ease-in-out;
   justify-content: center;
 }
 
-.close-btn-icon{
-  width: 18px;
-  height: 18px;
+.icon-close{
   fill: #000000;
 }
 
