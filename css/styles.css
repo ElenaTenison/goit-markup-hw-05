@@ -129,6 +129,7 @@ body {
   display: flex;
   align-items: center;
   position: relative;
+  transition: color 250ms ease;
 }
 
 .header-contact-item{
@@ -199,6 +200,7 @@ body {
   color: var(--primary-title-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  transition: color 250ms linear, background-color 250ms linear;
 
 }
 
@@ -279,6 +281,12 @@ body {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
+}
+.work-list-text{
+  font-size: 14px;
+  color:;
+  
+
 }
 
 /* TEAM */
@@ -407,6 +415,7 @@ body {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 6 - 30px);
+  transition: outline 250ms ease-in-out;
 }
 
 .clients-icon{ 
@@ -417,6 +426,7 @@ body {
   outline: 1px solid var(--primery-icon-color);
   border-radius: 4px 4px 4px 4px;
   fill: var(--primery-icon-color);
+  transition: fill 250ms ease-in-out;
 }
 
 .clients-item:hover,
@@ -462,6 +472,7 @@ body {
   font-style: normal;
   line-height: 1.71;
   color: var(--secondary-text-color);
+  transition: color 250ms ease;
 }
 .adrress-item:hover,
 .adrress-item:focus,
@@ -500,6 +511,7 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.10);
+  transition: background-color 250ms ease-in-out;
 }
 
 .footer-icon{
@@ -553,6 +565,7 @@ body {
 
 .gallery-link{
 display: block;
+transition: box-shadow 250ms ease-in-out;
 }
 
 .gallery-link:hover,
@@ -593,6 +606,7 @@ display: block;
   color: var(--secondary-title-color);
   background-color: var(--bg-color);
   cursor: pointer;
+  transition: color 250ms linear, background-color 250ms linear;
 }
 
 .gallery-btn:hover,
